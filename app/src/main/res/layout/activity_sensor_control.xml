@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+       tools:context="com.robot.xang.robot.sensorControl">
+
+
+    <Button
+        android:background="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left"
+        android:id="@+id/sleft"
+        android:layout_below="@+id/sup"
+        android:layout_toLeftOf="@+id/SDown"
+        android:layout_toStartOf="@+id/SDown" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Up"
+        android:id="@+id/sup"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:background="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rigth"
+        android:id="@+id/srigth"
+        android:layout_below="@+id/sup"
+        android:layout_toRightOf="@+id/sup"
+        android:layout_toEndOf="@+id/sup" />
+
+    <Button
+        android:background="@android:color/background_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Down"
+        android:id="@+id/SDown"
+        android:layout_below="@+id/srigth"
+        android:layout_alignLeft="@+id/sup"
+        android:layout_alignStart="@+id/sup" />
+
+    <Button
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_blue_dark"
+        android:elevation="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="connectBluetooth"
+        android:id="@+id/Break"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/srigth"
+        android:layout_alignEnd="@+id/srigth"
+        android:layout_alignLeft="@+id/sleft"
+        android:layout_alignStart="@+id/sleft" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_red_dark"
+        android:elevation="5dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="stopsensor"
+        android:id="@+id/sensorDown"
+        android:layout_below="@+id/Break"
+        android:layout_alignRight="@+id/srigth"
+        android:layout_alignLeft="@+id/Break"
+        android:layout_alignStart="@+id/Break" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/background_light"
+        android:background="#ffff5a30"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="startSensor"
+        android:id="@+id/starts"
+        android:layout_below="@+id/sensorDown"
+        android:layout_alignRight="@+id/srigth"
+        android:layout_alignLeft="@+id/sensorDown"
+        android:layout_alignStart="@+id/sensorDown" />
+
+</RelativeLayout>

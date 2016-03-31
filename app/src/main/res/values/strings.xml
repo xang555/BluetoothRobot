@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">robot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_robot_bluetooth">RobotBluetooth</string>
+    <string name="title_activity_findblutooth_device">findblutoothDevice</string>
+    <string name="title_activity_robotbanner">robotbanner</string>
+    <string name="title_activity_robotusb">Robotusb</string>
+    <string name="title_activity_bluetooth_listcontrol">BluetoothListcontrol</string>
+    <string name="title_activity_sensor_control">sensorControl</string>
+    <string name="title_activity_screen_controll">screenControll</string>
+    <string name="title_activity_sound_control">soundControl</string>
+    <string name="title_activity_aboutapp">aboutapp</string>
+    <string name="contenabout">
+        RobotC ເປັນແອບທີ່ພັດທະນາໂດຍກຸ່ມ Robot ທີ່ມະຫາວິທະຍາໄລແຫ່ງຊາດ ຄະນະວິທະຍາສາດທຳມະຊາດພາກວິຊາ ວິທະຍາສາດຄອມພິວເຕີ. ເຊິງແອບນີ້ພັດທະນາຂຶ້ນເພື່ອໃຫ້ສາມາດຄອບຄຸມ Robot ດ້ວຍໂທລະສັບມືຖື Androidການພັດທະນາຈະມີທີມງານພັດທະນາຕົວຫຸ່ນແລະທີມພັດທະນາແອບ ແລະດ່ວຍຄວາມຊ່ວຍເຫຼືອຈາກລຸ້ນອ້າຍເອື່ອຍ Robot
+         ໂດຍສະເພາະ ອ້າຍຫມູນ້ອຍ ຈຶ່ງເຮັດໃຫ້ແອບນີ້ເກີດຂື້ນມາໄດ້.
+         ສາມາດຕິດຕໍ່ສອບຖາມຫຼືແລກປ່ຽນຄວາມຮູ້ກັບພວກເຮົາໄດ້ທີ່ເບີໂທ: 02055765567 ແລະ email :xang.ultimate@gmail.com
+           </string>
+</resources>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="com.robot.xang.robot.RobotBluetooth"
+    android:id="@+id/sek"
+   >
+
+
+    <Button
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_blue_light"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Left"
+        android:id="@+id/left"
+        android:layout_marginBottom="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/up"
+        android:layout_toStartOf="@+id/up" />
+
+    <Button
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Rigth"
+        android:id="@+id/trunrigth"
+        android:layout_below="@+id/up"
+        android:layout_toRightOf="@+id/up"
+        android:layout_toEndOf="@+id/up" />
+
+    <Button
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:text="Up"
+        android:id="@+id/up"
+        android:layout_above="@+id/left"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Down"
+        android:id="@+id/down"
+        android:layout_below="@+id/trunrigth"
+        android:layout_toRightOf="@+id/left"
+        android:layout_toEndOf="@+id/left" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/linearLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:text="Noconnectionn bluetooth"
+            android:id="@+id/txtstat"
+            android:layout_weight="0.46"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical|center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_light"
+             />
+
+        <Button
+            android:elevation="10dp"
+             android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="connect device"
+            android:id="@+id/connect"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="0.44"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@color/abc_primary_text_disable_only_material_dark" />
+    </LinearLayout>
+
+</RelativeLayout>

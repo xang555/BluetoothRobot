@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+      tools:context="com.robot.xang.robot.findblutoothDevice"
+    android:weightSum="1">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:id="@+id/showbluetooth"
+        android:choiceMode="singleChoice"
+        android:layout_weight="1.05" />
+
+    <Button
+        android:textColor="@android:color/background_light"
+        android:background="@drawable/backgroudfine_bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="search device"
+        android:id="@+id/search" />
+</LinearLayout>
